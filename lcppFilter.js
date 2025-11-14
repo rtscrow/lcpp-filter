@@ -1,9 +1,4 @@
 blockedUsers = ['Alex', 'Jared', 'Winsor']
-<<<<<<< HEAD
-
-
-=======
->>>>>>> f6fe437 (remove default names)
 
 function remove_blocked_users() {
     console.log("lccp-filter running")
@@ -15,7 +10,7 @@ function remove_blocked_users() {
         // remove if in blocklist
         if (blockedUsers.includes(username)) {
             console.log("blocking post from: " + username);
-            comment.style.display = 'none';
+            comment.remove();
         }
     }
 }
