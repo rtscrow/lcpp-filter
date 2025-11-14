@@ -1,6 +1,9 @@
 blockedUsers = ['Alex', 'Jared', 'Winsor']
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> f6fe437 (remove default names)
 
 function remove_blocked_users() {
     console.log("lccp-filter running")
