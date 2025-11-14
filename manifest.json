@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "LearnCPP Filter",
+	"version": "1.0",
+
+	"description": "Attempts to filter out spam comments on learncpp.com",
+
+	"icons": {
+		"48": "icons/icon-48.png"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["*learncpp.com/*"],
+			"js": [lcppFilter.js]
+		}
+	]
+}
