@@ -11,8 +11,8 @@
 
 	"content_scripts": [
 		{
-			"matches": ["*learncpp.com/*"],
-			"js": [lcppFilter.js]
+			"matches": ["https://www.learncpp.com/cpp-tutorial/*"],
+			"js": ["lcppFilter.js"]
 		}
 	]
 }
