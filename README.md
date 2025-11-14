@@ -4,4 +4,4 @@ can be run as a test extension through about:debugging on firefox.
 
 TODO:
 - Allow manual blocking of users
-- run on each comment as it loads, instead of every xms
+
